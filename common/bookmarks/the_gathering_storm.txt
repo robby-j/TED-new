@@ -1,11 +1,4 @@
-bookmarks = {
-	bookmark = {
-		name = "KR_SCENARIO_NAME"
-		desc = "KR_SCENARIO_DESC"
-		date = 1936.1.1.1
-		picture = "GFX_select_date_1936"
-		default_country = "GER"
-		default = yes
+
 		
 		"FRA" = {
 			history = "FRA_KR_GATHERING_STORM_DESC"
