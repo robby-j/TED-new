@@ -1,0 +1,170 @@
+focus_tree = {
+	id = COG_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = COG
+			   }
+		  }
+
+	focus = {
+		id = COG_nation_reigns_eternal
+		icon = GFX_goal_generic_construction2 # All of these are just placeholders.
+		x = 1
+		y = 0
+		cost = 3
+
+		completion_reward = {
+			# Completion rewards eventually. Need to figure out *exactly* what I want these to do first.
+		}
+	}
+	
+	focus = {
+		id = COG_continue_authenticite
+		icon = GFX_goal_generic_construction2
+		x = -2
+		y = 2
+		cost = 4
+		prerequisite = { focus = COG_nation_reigns_eternal }		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = COG_strengthen_zairean_army
+		icon = GFX_goal_generic_construction2 
+		x = 4
+		y = 2
+		cost = 4
+		prerequisite = { focus = COG_nation_reigns_eternal }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = COG_rename_settler_colonial_lands
+		icon = GFX_goal_generic_construction2
+		x = -4
+		y = 4
+		cost = 4
+		prerequisite = { focus = COG_continue_authenticite }	
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = COG_decry_colonial_antiquities
+		icon = GFX_goal_generic_construction2
+		x = 0
+		y = 4
+		cost = 4
+		prerequisite = { focus = COG_continue_authenticite }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = COG_modernize_stockpiles
+		icon = GFX_goal_generic_construction2
+		x = 2
+		y = 4
+		cost = 4
+		prerequisite = { focus = COG_strengthen_zairean_army }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = COG_exercises_with_cabinda
+		icon = GFX_goal_generic_construction2
+		x = 6
+		y = 4
+		cost = 4
+		prerequisite = { focus = COG_strengthen_zairean_army }
+		completion_reward = {
+			
+		}
+	}	
+
+	focus = {
+		id = COG_promote_abacost_split
+		icon = GFX_goal_generic_construction2
+		x = -4
+		y = 6
+		cost = 4
+		prerequisite = { focus = COG_rename_settler_colonial_lands }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = COG_enforce_name_change_policies
+		icon = GFX_goal_generic_construction2
+		x = 0
+		y = 6
+		cost = 4
+		prerequisite = { focus = COG_decry_colonial_antiquities }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = COG_regulate_rules_of_warfare
+		icon = GFX_goal_generic_construction2
+		x = 2
+		y = 6
+		cost = 4
+		prerequisite = { focus = COG_modernize_stockpiles }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = COG_foreign_training
+		icon = GFX_goal_generic_construction2
+		x = 6
+		y = 6
+		cost = 4
+		prerequisite = { focus = COG_exercises_with_cabinda }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = COG_localized_secret_police
+		icon = GFX_goal_generic_construction2
+		x = -2
+		y = 8
+		cost = 5
+		prerequisite = { focus = COG_promote_abacost_split }
+		prerequisite = { focus = COG_enforce_name_change_policies }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = COG_instill_nationalistic_fervor
+		icon = GFX_goal_generic_construction2
+		x = 4
+		y = 8
+		cost = 5
+		prerequisite = { focus = COG_regulate_rules_of_warfare }
+		prerequisite = { focus = COG_foreign_training }
+		completion_reward = {
+			
+		}
+	}
+
+	
+}
